@@ -14,14 +14,14 @@ Exiba o valor do IMC e a classificação obtida. Se houver algum grau de obesida
 
 Se o grau de obesidade for 3, adicione também a seguinte mensagem: É importante procurar um médico para avaliar sua saúde.*/
 
-```
-
 peso = 45
 altura = 1.67
 classificacao = ""
 grauObesidade = ""
 
 imc = (peso / altura **2).toFixed(2)
+
+```
 
 if (imc < 18.5){
   classificacao = "Magreza"
