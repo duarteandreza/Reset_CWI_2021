@@ -21,8 +21,6 @@ grauObesidade = ""
 
 imc = (peso / altura **2).toFixed(2)
 
-```
-
 if (imc < 18.5){
   classificacao = "Magreza"
   grauObesidade = "0"
@@ -47,4 +45,3 @@ if (grauObesidade > 0) {
   console.log("É importante procurar um médico para avaliar sua saúde.")
 }
 
-```
